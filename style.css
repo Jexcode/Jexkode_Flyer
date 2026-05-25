@@ -1,0 +1,251 @@
+:root {
+    --pry_clr_100: hsl(118, 100%, 50%);
+    --sec_clr_100: hsl(118, 100%, 20%);
+    --lg_txt_clr_100: hsl(118, 100%, 100%);
+    --lg_txt_clr_300: hsl(118, 100%, 90%);
+    --text_clr_800: hsl(118, 100%, 5%);
+    --text_clr_900: hsl(118, 100%, 1%);
+    --font-pry: "DM Sans", sans-serif ;
+    --font-sec: "Poppins", sans-serif ;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    font-family: var(--font-sec);
+    font-size: 1rem;
+    padding: 120px;
+    position: relative;
+    width: fit-content;
+}
+
+.font_pry {
+    font-family: var(--font-pry);
+}
+
+.font_sec {
+    font-family: var(--font-sec);
+}
+
+.grid {
+    display: grid;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row {
+    display: flex;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.outline {
+    border: 1px solid var(--pry_clr_100);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    align-items: center;
+    background: var(--text_clr_900);
+    background-image: url(assets/Pattern\ white.png);
+    color: var(--lg_txt_clr_100);
+    height: 1350px;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 4rem;
+    position: relative;
+    width: 1080px;
+    z-index: 1;
+}
+
+.bg_con{
+    background: linear-gradient(0deg, var(--text_clr_900)60%, transparent);
+    inset: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo {
+    max-width: 180px;
+    z-index: 2;
+}
+
+.title {
+    gap: .625rem;
+    z-index: 2;
+}
+
+.title h1 {
+    font-size: 5.4rem;
+    line-height: 110%;
+}
+
+.title p {
+    color: var(--lg_txt_clr_300);
+    font-size: 1.25rem;
+}
+
+.services_con {
+    gap: 1rem;
+    z-index: 2;
+}
+
+.services_con h3 {
+    font-weight: 700;
+}
+
+.services_con h3 span {
+    color: var(--pry_clr_100);
+}
+
+.services {
+    gap: 0.625rem;
+}
+.services > *{
+    gap: 0.625rem;
+}
+
+.cta {
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight:400;
+    line-height: 120%;
+    padding: 1rem 1.5rem;
+    width: fit-content;
+}
+
+.services_con .services .cta.green{
+    background: var(--pry_clr_100);
+    color: var(--sec_clr_100);
+}
+.services_con .services .cta.white{
+    background: var(--lg_txt_clr_100);
+    color: var(--sec_clr_100);
+}
+.services_con .services .cta.dk_green{
+    background: var(--sec_clr_100);
+    color: var(--pry_clr_100);
+}
+
+.flyers_wrappers {
+    height: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+.flyer_items {
+    background-color: var(--pry_clr_100);
+    border-radius:1rem;
+    width: 400px;
+    height: 100%;
+    position: absolute;
+}
+
+.flyer_items:first-child {
+    left:280px;
+    transform: rotate(0deg);
+    z-index: 10;
+}
+
+
+.flyer_items:nth-child(2) {
+    background-color: var(--sec_clr_100);
+    left: 480px;
+    transform: rotate(10deg);
+    top: 50px;
+    z-index: 8;
+}
+
+.flyer_items:nth-child(3) {
+    background-color: var(--text_clr_800);
+    left:680px;
+    transform: rotate(10deg);
+    top: 150px;
+    z-index: 6;
+}
+
+.flyer_items:nth-child(4) {
+    background-color: var(--lg_txt_clr_100);
+    left:80px;
+    transform: rotate(-10deg);
+    top: 50px;
+    z-index: 8;
+}
+
+.flyer_items:nth-child(5) {
+    background-color: var(--sec_clr_100);
+    left:-280px;
+    transform: rotate(-10deg);
+    top: 150px;
+    z-index: 6;
+}
+
+.footer_con {
+    background: var(--lg_txt_clr_300);
+    position: relative;
+    z-index: 10;
+}
+
+.footer_con .shape{
+    background: hsla(0, 0%, 100%, 0.5);
+    border-radius: 4rem;
+    height: 250px;
+    position: absolute;
+    left: -4rem;
+    backdrop-filter: blur(1rem);
+    bottom: -120px;
+    width: 1080px;
+    z-index: -1;
+}
+
+.footer_con .footer_details{
+    align-items: center;
+    background-color: var(--text_clr_800);
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+.footer_details .cta {
+    background-color: var(--pry_clr_100);
+    color: var(--text_clr_800);
+    box-shadow: 0rem 0rem 2rem .25rem var(--pry_clr_100);
+}
+
+.footer_details .footer_whatsapp,
+.footer_details .footer_social {
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    gap: .5rem;
+}
+
+.footer_details .footer_social {
+    padding-right: 2rem;
+}
+
+.footer_icon {
+    font-size: 2rem;
+}
