@@ -17,16 +17,12 @@ This project was designed and developed to explore how strong visual identity ca
 
 ## Purpose of the Project
 
-The goal of this project was not just to design a poster, but to:
+The goal of this project was to:
 - Recreate a professional creative studio visual in code
 - Improve my understanding of HTML & CSS fundamentals
 - Practice layout structure and spacing systems
 - Experiment with typography, glow effects, and visual hierarchy
 - Build confidence in frontend implementation without frameworks
-
-This project serves as both:
-- A branding showcase
-- A frontend development milestone
 
 ## Built With
 
@@ -51,6 +47,34 @@ The visual identity focuses on:
 - Black and neon green aesthetics
 - Clean geometric spacing
 - Bold typography
+- Creative studio energy
+- Modern digital branding
+
+## What I Learned
+
+- CSS positioning and layout systems
+- Flexbox structuring
+- Visual hierarchy and spacing consistency
+- Responsive design thinking
+- Translating UI concepts into code
+
+## Future Improvements
+
+- Add animations and transitions
+- Improve mobile responsiveness
+- Convert sections into reusable components
+- Add JavaScript interactivity
+- Expand into a full portfolio website
+
+## Preview
+
+Here is the final design output of the project:
+
+![Jexkode Brand Flyer](./assets/Jexkode-brand-flyer.jpg)
+
+## Author
+
+Designed and developed by Jexkode.- Bold typography
 - Creative studio energy
 - Modern digital branding
 
