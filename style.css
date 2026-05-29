@@ -213,7 +213,7 @@ body{
     background: url(assets/JexDecember.jpg);
     background-size:cover;
     background-position: center;
-    left:-280px;
+    left:-120px;
     transform: rotate(-10deg);
     top: 170px;
     z-index: 6;
