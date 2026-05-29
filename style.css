@@ -108,6 +108,12 @@ body{
     font-size: 1.25rem;
 }
 
+.ribbon{
+    top: 45%;
+    position: absolute;
+    z-index: 1;
+}
+
 .services_con {
     gap: 1rem;
     z-index: 2;
@@ -157,8 +163,10 @@ body{
 }
 
 .flyer_items {
-    background-color: var(--pry_clr_100);
+    background: url(assets/slide1_who_we.png);
+    background-size: cover;
     border-radius:1rem;
+    border: .25rem solid var(--lg_txt_clr_100);
     width: 400px;
     height: 100%;
     position: absolute;
@@ -172,7 +180,9 @@ body{
 
 
 .flyer_items:nth-child(2) {
-    background-color: var(--sec_clr_100);
+    background: url(assets/OnlyUP\ $UP\ 08.jpg);
+    background-size: cover;
+    background-position: center;
     left: 480px;
     transform: rotate(10deg);
     top: 50px;
@@ -180,7 +190,9 @@ body{
 }
 
 .flyer_items:nth-child(3) {
-    background-color: var(--text_clr_800);
+    background: url(assets/Tosin_carousel_template_02_01.jpg);
+    background-size: cover;
+    background-position: center;
     left:680px;
     transform: rotate(10deg);
     top: 150px;
@@ -188,7 +200,9 @@ body{
 }
 
 .flyer_items:nth-child(4) {
-    background-color: var(--lg_txt_clr_100);
+    background: url(assets/Vendors\ Flyer_.jpg);
+    background-size: cover;
+    background-position: center;
     left:80px;
     transform: rotate(-10deg);
     top: 50px;
@@ -196,10 +210,12 @@ body{
 }
 
 .flyer_items:nth-child(5) {
-    background-color: var(--sec_clr_100);
+    background: url(assets/JexDecember.jpg);
+    background-size:cover;
+    background-position: center;
     left:-280px;
     transform: rotate(-10deg);
-    top: 150px;
+    top: 170px;
     z-index: 6;
 }
 
